@@ -32,7 +32,7 @@
 
 
 // Define the network configuration according to your router settings
-uint8_t ip_address[4]  = {192, 168, 0, 50};
+uint8_t ip_address[4]  = {192, 168, 0, 60};
 uint8_t subnet_mask[4] = {255, 255, 255, 0};
 uint8_t ip_gateway[4]  = {192, 168, 0, 1};
 #define myvNet_address  ip_address[3]       // The last byte of the IP address (50) is also the vNet address
